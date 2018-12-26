@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+html, body{
+    background-color: rgb(175, 170, 170);
+}
+#image{
+    width:30px;
+    height:40px;
+    padding-bottom:5px;
+    
+}
+#quote-box{
+    text-align:center;
+    height:auto;
+    width:250px;
+    border: 1px solid gray;
+    margin-top:100px;
+    padding-top:50px;
+    background-color: rgb(30, 77, 30);
+    color:rgb(202, 191, 191);
+}
