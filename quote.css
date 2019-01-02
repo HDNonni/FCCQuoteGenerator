@@ -3,6 +3,8 @@
 }
 html, body{
     background-color: rgb(175, 170, 170);
+    height: 100%;
+    width: 100%;
 }
 #image{
     width:30px;
@@ -13,15 +15,20 @@ html, body{
 #quote-box{
     text-align:center;
     height:auto;
-    width:250px;
+    width:350px;
+    height: 250px;
     border: 1px solid gray;
     margin-top:100px;
     padding-top:50px;
     background-color: rgb(30, 77, 30);
     color:rgb(202, 191, 191);
+    position: relative;
 }
 #heading{
     text-align: center;
     font-family: comic san MS;
     text-decoration: underline;
+}
+.content {
+    height: 75%;
 }
