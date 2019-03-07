@@ -43,10 +43,10 @@ function changeFontSize(size){
     fontSize.style.fontSize = size
 }
 
-function changeTextDeco(deco){
-    let textDeco = document.getElementById("text");
-    textDeco.style.textDecoration = deco
-}
+// function changeTextDeco(deco){
+//     let textDeco = document.getElementById("text");
+//     textDeco.style.textDecoration = deco
+// }
 
 function displayRandomQuote() {
 
@@ -67,9 +67,9 @@ function displayRandomQuote() {
     let size = fontSizeIndex + "px";
     changeFontSize(size);
 
-    let textDecoIndex = getRandomNumber(0, textDeco.length);
-    let deco = textDeco[textDecoIndex];
-    changeTextDeco(deco);
+    // let textDecoIndex = getRandomNumber(0, textDeco.length);
+    // let deco = textDeco[textDecoIndex];
+    // changeTextDeco(deco);
 
     let oneQuote = getQuoteAtIndex(index);
 
